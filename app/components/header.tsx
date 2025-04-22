@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
-import { Home, User } from "lucide-react";
+import { User } from "lucide-react";
 import { useNotification } from "./notification";
+import Image from "next/image";
 
 export default function Header() {
   const { data: session } = useSession();
@@ -31,7 +32,7 @@ export default function Header() {
             }
           >
             {/* <Home className="w-5 h-5" /> */}
-            <img
+            <Image
               src="./pngwing.com.png"
               alt="reelPro Logo"
               className="w-10 h-10"
