@@ -32,11 +32,11 @@ export default function Header() {
             }
           >
             {/* <Home className="w-5 h-5" /> */}
-            <Image
+            {/* <Image
               src="./pngwing.com.png"
               alt="reelPro Logo"
               className="w-10 h-10"
-            />
+            /> */}
             ImageKit ReelsPro
           </Link>
         </div>
